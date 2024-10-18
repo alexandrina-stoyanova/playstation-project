@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <title>Register</title>
+</head>
+<body class="background">
+    <header>
+        <a href="/index.html" id="homeBtn">
+            <img id="logo-img" src="./images/playstation-logotype_1443 (2).png" alt="">
+        </a>
+        <nav>
+            <div>
+                <a href="/ps5.html" id="ps5Btn">PS5</a>
+            </div>
+            <div>
+                <a href="/ps4.html" id="ps4Btn">PS4</a>
+            </div>
+            <div>
+                <a href="/login.html" id="loginBtn">Login</a>
+            </div>
+            <div>
+                <a href="/register.html" id="regBtn">Register</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="register">
+            <form class="registerForm" onsubmit="return registerForm()">
+                <h2>Register</h2>
+                <input type="text" name="" placeholder="Enter Username" id="usernameReg">
+                <input type="email" name="" placeholder="Enter Email" id="emailReg">
+                <input type="password" name="" placeholder="Enter Password" id="passwordReg">
+                <input type="password" name="" placeholder="Confirm Password" id="confirmPass">
+                <button type="submit" id="submBtn">Register</button>
+                <p id="errorMsg"></p>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container"> 
+            <a href="https://www.instagram.com/playstation/?hl=en" id="instaBtn">
+                <img class="btn" src="/images/instagram.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/playstation" id="fcbBtn">
+                <img class="btn" src="/images/facebook.png" alt="">
+            </a>
+            <a href="https://x.com/PlayStation?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" id="twittBtn">
+                <img class="btn" src="/images/twitter.png" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@700&family=Roboto+Slab:wght@200&family=Roboto:wght@300;900&display=swap');
+
+/* Navigation Style */
+
+#logo-img {
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+nav {
+    height: 0px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: #2BC0E4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #000046, #2BC0E4);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #000046, #2BC0E4);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -10px;
+    padding-bottom: 5px;
+}
+
+nav a {
+    padding: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #05FBFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #16F529;
+}
+
+/* Main Style Home */
+.background {
+    background-image: url("/images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+}
+
+.background #ps5-image {
+    width: 480px;
+    float: right;
+    padding-right: 40px;
+    padding-top: 80px;
+}
+
+.background h1 {
+    font-family: Asul, serif;
+    font-weight: 20;
+    color: white;
+    font-size: 80px;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.background h1:hover {
+    color: #16F529;
+}
+
+.background #logo-h1 {
+    display: flex;
+    width: 200px;
+    display: inline-block;
+}
+
+/* Footer Style */
+
+footer {
+    justify-content: space-between;
+    background-color: #0079BA;
+    margin-top: 25%;
+    margin-left: -0.5%;
+    margin-bottom: -5%;
+    margin-right: -0.8%;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+}
+
+.container {
+    padding: 0.5%;
+    text-align: center;
+    font-size: 0;
+}
+
+.btn {
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Main Style PS5 */
+.ps5-background {
+    background-image: url("/images/1147129.jpg");
+    background-size: cover;
+}
+
+#ps5-secondLogo {
+    width: 100px;
+}
+
+#h-ps5 {
+    font-family: Asul, serif;
+    text-align: right;
+    margin-right: 15px;
+    margin-top: 30px;
+    color: #116694;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#h-ps5:hover {
+    color: #16F529;
+}
+
+.box {
+    background-color: #636C7B;
+    float: right;
+    width: 600px;
+    height: 380px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: -10px;
+    overflow: auto;
+}
+
+.box #ps5TwoTypes {
+    width: 100%;
+    height: 100%;
+
+}
+
+.box h2 {
+    text-align: center;
+    font-family: Asul, serif;
+    font-size: 35px;
+    margin-top: -360px;
+    color: white;
+    -webkit-text-stroke: 1px white;
+}
+
+#ps5Only img {
+    width: 70%;
+    padding-left: 130px;
+    margin-top: -300px;
+}
+
+#ps5Digital img {
+    width: 70%;
+    padding-left: 60px;
+    margin-top: -350px;
+}
+
+#h3Ps5 {
+    font-family: Asul, serif;
+    text-align: left;
+    padding-left: 120px;
+    margin-top: 400px;
+    color: white;
+}
+
+#pPs5 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 250px;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+#h3Ps5Digital {
+    font-family: Asul, serif;
+    text-align: right;
+    padding-right: 120px;
+    margin-top: 40px;
+    color: white;
+}
+
+#pPs5Digital {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    padding-left: 250px;
+    padding-right: 50px;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+/* Main Style PS4 */
+#ps4Img {
+    width: 300px;
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+#ps4ProImg {
+    width: 300px;
+    float: right;
+    margin-top: -380px;
+    padding-right: 50px;
+}
+
+.mainPs4 h2 {
+    font-family: Asul, serif;
+    font-weight: 10;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.mainPs4 h2:hover {
+    color: black;
+}
+
+.mainPs4 p {
+    font-family: Asul, serif;
+    text-align: center;
+    margin-top: -50px;
+    font-size: 20px;
+    color: #16F529;
+}
+
+.mainPs4 h3 {
+    font-family: Asul, serif;
+    color: #16F529;
+}
+
+.mainPs4 h4 {
+    font-family: Asul, serif;
+    color: white;
+}
+
+#ps4h3 h3 {
+    margin-left: 170px;
+}
+
+#ps4h3 h4 {
+    margin-left: 40px;
+}
+
+#ps4Proh3 h3 {
+    text-align: right;
+    margin-top: -77px;
+    margin-right: 190px;
+}
+
+#ps4Proh3 h4 {
+    text-align: right;
+    margin-right: 40px;
+}
+
+/* Main Style Login */
+.login {
+    margin: 0;
+    padding: 0;
+    font-family: Asul, serif;
+}
+.boxLogin {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(55, 255, 0, 0.7);
+    border: 3px solid #000046;
+    border-radius: 15px;
+    text-align: center;
+}
+.boxLogin h2{
+    color: white;
+    text-transform: uppercase;
+}
+.boxLogin #username, #password{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #116694;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.boxLogin #submitBtn {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #116694;
+    padding: 10px 25px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-family:Asul,serif;
+    text-transform: uppercase;
+    color: #000046;
+    background-color: #a5fa26;
+}
+.boxLogin #errorMsgs{
+    color:rgba(255, 0, 0, 0.7);
+}
+/* Main Style Register */
+.register {
+    margin: 0;
+    padding: 0;
+    font-family: Asul, serif;
+}
+.registerForm {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(55, 255, 0, 0.7);
+    border: 3px solid #000046;
+    border-radius: 15px;
+    text-align: center;
+}
+.registerForm h2{
+    color: white;
+    text-transform: uppercase;
+}
+.registerForm #usernameReg, #emailReg, #passwordReg, #confirmPass{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #116694;
+    padding: 14px 10px;
+    width: 220px;
+    color: white;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.registerForm #submBtn {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #116694;
+    padding: 10px 25px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-family:Asul,serif;
+    text-transform: uppercase;
+    color: #000046;
+    background-color: #a5fa26;
+}
+.registerForm #errorMsg{
+    color:rgba(255, 0, 0, 0.7);
+}
